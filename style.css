@@ -1,0 +1,972 @@
+/* Importing the Univers font */
+@font-face {
+    font-family: 'Univers';
+    src: url('https://fonts.cdnfonts.com/css/univers');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Univers', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.mobileview{
+  display: none;
+}
+.landing-page-desktop {
+    width: 100%;
+    height: 100vh;
+    top: 100px;
+    left: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Header styles */
+.Header {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    padding: 0px, 104px, 0px, 104px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+.Primary-Header {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    max-width: 1232px;
+    min-height: 93px;
+    padding: 24px, 0px, 24px, 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Logo {
+    display: flex;
+    align-items: center;
+    width: 128px;
+    height: 40px;
+}
+
+.Logo img {
+    width: 128px;
+    height: 43.3px;
+    object-fit: contain;
+}
+
+
+.CTAs {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.Lost-or-Stolen {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Lost-or-Stolen img {
+    width: 16.29px;
+    height: 11.29px;
+}
+
+.Lost-or-Stolen p {
+    margin: 0;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 1);
+}
+
+
+.CTAs select {
+    width: 96px;
+    height: 45px;
+    padding: 12px;
+    border: 1px solid rgba(35, 124, 184, 1);
+    color: rgba(35, 124, 184, 1);
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.Hero-Banner {
+    width: 100%;
+    height: 726px;
+    background-image: url("./images/Banner\ Image.png");
+    display: flex;
+    align-items: center;
+
+}
+
+.Hero-Banner::before {
+    content: "";
+    position: absolute;
+    width: 720px;
+    height: 686px;
+    top: 95px;
+    background-color: rgba(0, 0, 0, 0.75);
+    pointer-events: none;
+}
+
+.content-Copy {
+    width: 521px;
+    height: 362px;
+    position: absolute;
+    top: 215px;
+    left: 104px;
+    gap: 32px;
+}
+
+.content-Copy h4 {
+    width: 46px;
+    height: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Badge {
+    width: 62px;
+    height: 30px;
+    border-radius: 2px;
+    padding: 8px;
+    gap: 10px;
+    text-align: center;
+    background-color: rgba(35, 124, 184, 1);
+}
+
+.Badge p {
+    text-align: center;
+    width: 46px;
+    height: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.content-Copy .h1 {
+    width: 516px;
+    height: 186px;
+    font-weight: 300;
+}
+
+.content-Copy p {
+    font-weight: 300;
+}
+
+ .Hero-Banner .Element {
+    width: 490px; 
+    height: 80px;
+    position: absolute;
+    top: 741px;
+    overflow: hidden;
+} 
+.Frame34{
+    width: 100%;
+    height: 752px;
+    padding: 96px 104px,96px,104px;
+    gap:56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Frame6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    gap: 40px;
+    
+
+}
+.Frame6 .Loremipsum{
+    margin: 0 auto;
+    width: 828px;
+    height: 35px;
+    gap: 40px;
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    line-height: 59.47px;
+    letter-spacing: -0.02em;
+    color: rgba(60, 60, 60, 1);
+}
+.Frame4665 {
+    width: 980px;
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+  
+  .Frame4 {
+    width: 980px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .Frame4662 {
+    width: 300px;
+    height: 400px;
+    position: relative;
+  }
+  
+  .Frame4672,.Frame4673,.Frame4674 {
+    
+    background-size: cover;
+    width: 198px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .frame4664 {
+    width: 246px;
+    height: 77px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    gap :4px;
+  }
+  
+  .frame4663 {
+    width: 73px;
+    height: 33px;
+    margin: 0 auto;
+  }
+  
+  .step1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.3px;
+    letter-spacing: -0.02em;
+    color: rgba(35, 124, 184, 1);
+  }
+  
+  .textstep1 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color: rgba(60, 60, 60, 1);
+  }
+  
+  .Frame5 {
+    display: flex;
+    gap: 20px;
+  }
+  
+.button{
+    width: 190px;
+    height: 45px;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 16px;
+    gap:6px;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.82px;
+letter-spacing: -0.02em;
+text-align: center;
+background-color: rgba(35, 124, 184, 1);
+color: rgba(255, 255, 255, 1);
+border-color: rgba(35, 124, 184, 1);
+
+
+}
+
+.Frame29 {
+  width: 100%;
+  height: 2081px;
+}
+
+.Frame14 {
+  width: 100%;
+ height: 596px;
+  margin: 0 auto;
+  padding: 96px, 104px, 96px, 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.Frame8 {
+  
+  width: 864px;
+  height: 184px;
+  text-align: center;
+  margin: 0 auto;
+  gap: 28px;
+}
+
+.dolor-sit-amet {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34.69px;
+  text-align: center;
+  color: rgba(35, 124, 184, 1);
+  margin-bottom: 16px;
+}
+
+.lorem-text1 {
+  
+font-size: 48px;
+font-weight: 300;
+line-height: 59.47px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #333;
+}
+
+.lorem-text2{
+font-size: 20px;
+font-weight: 300;
+line-height: 33.6px;
+letter-spacing: -0.02em;
+text-align: center;
+  color: #333;
+}
+
+.Frame12 {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 1,232px;
+  height: 180px;
+}
+
+.Frame9 {
+  width:394.67px;
+height: 180px;
+padding: 32px;
+gap: 20px;
+border-radius: 2px ;
+margin: auto 0;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.icons {
+  width: 47.73px;
+height: 51.76px;
+top: 1.12px;
+left: 1.14px;
+}
+
+.spantext {
+font-size: 20px;
+font-weight: 300;
+line-height: 28.8px;
+text-align: left;
+color: rgba(60, 60, 60, 1);
+}
+.Frame4667 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+  height: 770px;
+  margin: 0 auto;
+  
+}
+.Frame28 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame28text {
+font-size: 48px;
+font-weight: 300;
+line-height: 59.47px;
+letter-spacing: -0.02em;
+text-align: left;
+  color: rgba(60, 60, 60, 1);
+  /* margin-bottom: 32px; */
+}
+
+.features-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 33.6px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.features-list img {
+  width: 20px; /* Size for the tick icon */
+  height: 20px;
+  margin-right: 16px; /* Space between the tick icon and text */
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  background-color: #237cb8;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
+.Frame4669 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 90%;
+  height: 770px;
+  margin: 0 auto;
+  /* padding: 96px 104px; */
+}
+
+.Frame20 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-section h2 {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 59.47px;
+  color: rgba(60, 60, 60, 1);
+  margin-bottom: 32px;
+}
+.lastbutton button{
+  width: 122px;
+height:45px;
+    padding: 12px;
+    border: 1px solid rgba(35, 124, 184, 1);
+    color: rgba(35, 124, 184, 1);
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.Frame33 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px; 
+  box-sizing: border-box;
+  padding: 0px, 104px, 96px, 104px
+}
+
+
+.Frame31 .frame31text {
+  font-size: 24px; 
+  font-weight: 400;
+  color: #333; 
+  margin-bottom: 20px; 
+}
+
+
+.Frame32 .Frame30 {
+  display: flex;
+  justify-content: center;
+  gap: 5px; 
+  margin-bottom: 10px; 
+}
+
+
+.star {
+  width: 24px; 
+  height: 24px;
+}
+
+
+.frame32text {
+  font-size: 14px; 
+  color: #666; 
+  margin-bottom: 20px; 
+}
+
+
+.AppButton {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin-top: 20px;
+}
+
+
+.Apple img {
+  width: 135px; 
+  height: auto; 
+}
+
+
+.Goole img {
+  width: 135px; 
+  height: auto; 
+}
+
+.Frame4671 {
+  width: 100%;
+  height: 930px;
+  box-sizing: border-box;
+  padding: 0px 0px 40px 0px;
+  background: rgba(45, 45, 45, 1);
+
+}
+
+
+.Frame4670 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  box-sizing: border-box;
+  padding: 0px 104px; 
+}
+
+
+.Logo {
+  width: 188.8px;
+  height: 59px;
+}
+
+.Logo img {
+  width: 100%;
+  height: auto;
+}
+.Frame4661 {
+  width: 103px;
+  height: 20px;
+  box-sizing: border-box;
+  padding: 4px, 0px, 4px, 0px;
+  gap: 40px;
+  background-color: rgba(0, 0, 0, 0.08);
+  opacity: 1; 
+}
+
+.frame4661text {
+  width: 103px;
+height: 12px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.82px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white; 
+}
+
+
+.disclaimer {
+  width: 100%;
+  height: 770px;
+  box-sizing: border-box;
+  padding: 0px 104px 24px 104px;
+  gap: 32px;
+}
+
+
+.disclaimer-text {
+  width: 100%;
+  height: 88px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: white; 
+  margin-bottom: 20px; 
+}
+
+
+
+.line-1048 hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.4); /* Adjust line color and opacity */
+  margin: 0 auto;
+}
+
+
+.Afterlinetext {
+  width: 100%;
+  height: 594px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white; 
+  text-align: left;
+}
+
+@media (max-width: 375px) {
+  .landing-page-desktop{
+    width: 100%;
+
+  }
+  
+
+  .Header{
+    display: none;
+  }
+  .mobileview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   height: 64px;
+   box-sizing: border-box;
+   padding: 0 24px;
+  }
+  .mobileLogo{
+    width: 102px;
+height: 32px;
+top: 16px;
+left: 24px;
+gap: 0px;
+opacity: 0px;
+
+
+  }
+  .base{
+    width: 24px;
+height: 24px;
+top: 20px;
+left: 327px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  .Hamburger-Menu{
+    width: 16px;
+    height:12px;
+    top: 26px;
+    /* left: 331px; */
+    gap: 3px;
+    opacity: 0px;
+    
+  }
+  .Element img{
+    position: absolute;
+    width: 100%;
+height: 24px;
+
+
+/* left: 50%; */
+
+  }
+  .Hero-Banner{
+    position: relative;
+    background-size:cover;
+    width: 100%;
+height: 520px;
+top: 64px;
+gap: 0px;
+opacity: 0px;
+
+  }
+   .Hero-Banner::before {
+    content: "";
+  position: absolute;
+  width: 100%; /* Ensure full width */
+  height: 277px;
+  background-color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  left: 0;
+
+  pointer-events: none;
+ 
+  }
+  .content-Copy{
+    
+    width:100%;
+height: 199px;
+gap: 16px;
+opacity: 0px;
+ align-items: left;
+  }
+  .Badage{
+    width: 44px;
+height: 22px;
+box-sizing: border-box;
+padding: 6px 0px 0px 0px;
+gap: 10px;
+border-radius: 2px 0px 0px 0px;
+opacity: 0px;
+background: rgba(35, 124, 184, 1);
+text-align: center;
+  }
+  .Badage p{
+    width: 32px;
+height: 10px;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.35px;
+text-align: center;
+  }
+  .content-Copy h1{
+    width: 100%;
+height: 61px;
+font-size: 32px;
+font-weight: 300;
+line-height: 38.4px;
+letter-spacing: -0.02em;
+text-align: left;
+
+  }
+  .Frame34 {
+    width: 100%;
+    padding: 40px 20px;
+    height: auto; /* Let the height adapt based on content */
+    gap: 24px;
+  }
+
+  .Frame6 {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .Frame6 .Loremipsum {
+    width: 100%;
+    height: auto;
+    font-size: 32px; /* Smaller font for mobile */
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    padding: 0 10px; /* Add padding for mobile */
+  }
+
+  .Frame4665 {
+    width: 100%; /* Use full width on mobile */
+    height: auto;
+    gap: 16px;
+    display: block;
+  }
+
+  .Frame4 {
+    width: 100%;
+    height: auto; /* Let height adjust automatically */
+    flex-direction: column; /* Stack elements vertically */
+    gap: 20px;
+  }
+
+  .Frame4662 {
+    width: 100%; /* Full width for each section */
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+  }
+
+  .Frame4672, .Frame4673, .Frame4674 {
+    width: 100%;
+    height: auto; /* Adjust height to fit width */
+    position: relative;
+    margin: 0 auto;
+    text-align: center /* Center the images */
+  }
+
+  .frame4664 {
+    width: 100%;
+    height: auto;
+    max-width: 320px; /* Limit the text container width */
+    bottom: 10px;
+    position: relative;
+    text-align: center;
+    transform: translateX(0); /* No need for translation on mobile */
+    gap: 8px;
+    display: block;
+  }
+
+  .frame4664 .step1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .frame4664 .textstep1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .Frame5 {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 16px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    width: 80%; /* Make buttons responsive */
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .Frame29 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .Frame12 {
+    flex-direction: column; /* Stack icon and text */
+    gap: 10px;
+  }
+
+  .Frame9 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .icons img {
+    width: 40px; /* Adjust icon size */
+  }
+
+  .spantext {
+    font-size: 14px;
+  }
+  
+  .Frame4667 {
+    display: flex;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  .Maskgroup img{
+    width: 100%;
+  }
+
+  .Frame4669 {
+    display: flex;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    height: 770px;
+    margin: 0 auto;
+    /* padding: 96px 104px; */
+  }
+  
+.Frame8 {
+  
+  width: 100%;
+  height: 184px;
+  text-align: center;
+  margin: 0 auto;
+  gap: 28px;
+}
+
+.Frame12 {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 1,232px;
+  height: 180px;
+}
+
+.Frame9 {
+  width:394.67px;
+height: 180px;
+padding: 32px;
+gap: 20px;
+border-radius: 2px ;
+margin: auto 0;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.icons img{
+  width: px;
+  padding: 10px;
+text-align: center;
+top: 1.12px;
+/* left: 1.14px; */
+}
+
+.Frame4672, .Frame4673, .Frame4674 {
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.frame4664 {
+  width: 100%;
+  height: 77px;
+  top:60px;
+  gap: 30px;
+  text-align: center;
+  
+}
+
+.Frame9 {
+  width:394.67px;
+height: 180px;
+padding: 32px;
+gap: 20px;
+border-radius: 2px ;
+margin: auto 0;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+
+.Frame9 {
+  width:100%;
+height: 180px;
+padding: 32px;
+gap: 20px;
+border-radius: 2px ;
+margin: auto 0;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+}
